@@ -73,7 +73,8 @@ async function generate() {
       response_format: "b64_json"
     });
 
-    const base64 = response.data[0]?.b64_json;
+    const first = response.data?.[0];
+    const base64 = first?.b64_json;
     if (!base64) {
       throw new Error(`Image generation failed for ${image.filename}`);
     }
