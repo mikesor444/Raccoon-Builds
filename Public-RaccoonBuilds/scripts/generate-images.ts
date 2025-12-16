@@ -73,23 +73,15 @@ async function generate() {
       response_format: "b64_json"
     });
 
-<<<<<<< HEAD
-    const first = response.data?.[0];
-    const base64 = first?.b64_json;
-    if (!base64) {
-      throw new Error(`Image generation failed for ${image.filename}`);
-    }
-=======
     const data = (response as any)?.data ?? [];
     const first = Array.isArray(data) ? data[0] : undefined;
     const base64 = first?.b64_json as string | undefined;
     if (!base64) throw new Error(`Image generation failed for ${image.filename}`);
->>>>>>> 8951c17 (Fix image generator typings)
 
     const buffer = Buffer.from(base64, "base64");
     const filepath = path.join(outputDir, image.filename);
     await fs.promises.writeFile(filepath, buffer);
-    console.log(`✔ Saved ${image.filename}`);
+    console.log(`Saved ${image.filename}`);
 
     manifestEntries.push({
       filename: `public/ai/${image.filename}`,
