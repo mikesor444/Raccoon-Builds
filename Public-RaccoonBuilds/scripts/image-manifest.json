@@ -1,0 +1,44 @@
+[
+  {
+    "filename": "public/ai/hero.png",
+    "prompt": "High-end editorial architectural render of a contemporary residence at dawn, soft natural light, glass and stone facade, minimal landscaping, cinematic composition, no text or logos.",
+    "size": "1536x1024",
+    "quality": "hd",
+    "timestamp": ""
+  },
+  {
+    "filename": "public/ai/victorian.png",
+    "prompt": "Victorian brick house with precast stone details, restored facade, soft morning light, elegant street context, clean composition, no text or watermarks.",
+    "size": "1536x1024",
+    "quality": "hd",
+    "timestamp": ""
+  },
+  {
+    "filename": "public/ai/bauhaus.png",
+    "prompt": "Bauhaus inspired house with one sculptural natural stone pillar, geometric volumes, clear glass, warm sunlight, minimal landscaping, editorial render, no text.",
+    "size": "1536x1024",
+    "quality": "hd",
+    "timestamp": ""
+  },
+  {
+    "filename": "public/ai/cyclopean-chalet.png",
+    "prompt": "Large chalet built with cyclopean cobblestone, deep eaves, recessed lighting, alpine setting, premium architectural visualization, clean and realistic materials.",
+    "size": "1536x1024",
+    "quality": "hd",
+    "timestamp": ""
+  },
+  {
+    "filename": "public/ai/wave-wall.png",
+    "prompt": "Commercial building facade with wave-like prefabricated brick modules, rhythmic shadows, sunset light, sophisticated editorial render, no people, no text.",
+    "size": "1536x1024",
+    "quality": "hd",
+    "timestamp": ""
+  },
+  {
+    "filename": "public/ai/french-townhouses.png",
+    "prompt": "Row of French-inspired townhouses with precast panels and Art Nouveau Parisian details, calm street, golden hour, premium architectural rendering, no signage.",
+    "size": "1536x1024",
+    "quality": "hd",
+    "timestamp": ""
+  }
+]
